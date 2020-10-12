@@ -1,0 +1,51 @@
+@media screen and (max-width: 1024px) {
+	.nav-links-one, .nav-links-two, .nav-links-three {
+		color: #5f5f79;
+		font-size: 1rem; 
+		text-decoration: none;
+	}
+	.nav-social-media img {
+		width: 25px;  
+		height: 20px; 
+		border-radius: 25%; 
+	}
+	.main {
+		flex-direction: column;
+	}
+	.main__pitch {
+		margin-top: 5vh;
+		text-align: center;
+
+	}
+	.main_pitch_text h1 {
+		font-size: 30px;
+	}
+	.main_pitch_text p {
+		font-size: 18px;
+	}
+	.showcase {
+		padding: 10px 0px 0px 0px;
+	}
+	.menu {
+		bottom: 5%;
+		right: 50%;
+		width: 50%;
+		transform: translate(50%, 5%);
+	}
+	.main_pitch-img img {
+		width: 100%; 
+		object-fit: cover; 
+		padding: 30px 0px; 
+		margin: auto; 
+	}
+
+	.overlay-media {
+		padding:.2rem;
+		
+	}
+
+	.overlay-media-fb, .overlay-media-youtube, .overlay-media-instagram, .overlay-media-twitter, .overlay-media-mail {
+		width:40px;
+		height:25px;
+	}
+}

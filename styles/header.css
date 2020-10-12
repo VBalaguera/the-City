@@ -1,0 +1,66 @@
+
+
+
+header {
+	display: flex;
+	width: 95%; /*temporary*/
+	height: 7vh;
+	margin: auto;
+	align-items: center;
+}
+
+.logo-container,
+.nav-links,
+.nav-social-media {
+	display: flex;
+}
+
+.logo-container {
+	flex: 1;
+}
+
+.overlay-menu-btn {
+	z-index: 99; 
+}
+
+.icon {
+	width: 25px;
+	height: 25px;
+	stroke: crimson; 
+	
+}
+.logo-container-name {
+	font-family: 'Cabin', sans-serif;
+	font-weight: 700;
+	margin: 5px;
+	color: crimson; /*temporary, CHOOSE A BETTER REDDISH COLOR*/
+}
+nav {
+	flex: 3;
+}
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+	font-weight: 700; 
+	font-family: 'Staatliches', cursive;
+}
+.nav-links-one, .nav-links-two, .nav-links-three {
+	color: #5f5f79;
+	font-size: 1.3rem; 
+	text-decoration: none;
+}
+.nav-social-media {
+	flex: 1;
+	justify-content: flex-end;
+}
+
+.nav-social-media img {
+	width: 25px;  
+	height: 25px; 
+	border-radius: 25%; 
+}
+
+.nav-social-media img:hover {
+
+	background: crimson; 
+}

@@ -1,0 +1,62 @@
+
+/*
+
+
+
+*/
+
+
+/*fonts*/
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+/*ONLY CAPITAL. PERFECT for titles, link pages, and index;*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;600;700&display=swap');
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-size: 16px; 
+}
+
+body {
+	font-family: 'Dosis', sans-serif;
+	overflow-y: scroll;
+	box-sizing: border-box; 
+}
+
+a {
+	text-decoration: none;
+	color: black; 
+}
+
+body::after {
+	content: "";
+	background: url("./img/here\ there\ be\ monsters.jpg");
+	background-position: center;
+	background-repeat: no-repeat; 
+	opacity: 0.2;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1; 
+}
+
+
+
+
+
+
+
+
+
+
